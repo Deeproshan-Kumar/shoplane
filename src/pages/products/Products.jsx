@@ -31,7 +31,7 @@ const Products = () => {
 
   return (
     <>
-      <section className="pt-20 md:min-h-[50vh] w-full flex justify-center items-center mb-5">
+      <section className="pt-30 md:pt-20 md:min-h-[50vh] w-full flex justify-center items-center mb-5">
         <div className="container mx-auto">
           <div className="bg-gray-100 flex items-center rounded-md">
             <div className="hidden md:flex w-3/12 h-[36rem] items-center">
@@ -43,7 +43,9 @@ const Products = () => {
             </div>
             <div className="w-full md:w-9/12 p-6 md:7 flex items-center">
               <div>
-                <h1 className="text-4xl text-black font-bold mb-2">Products</h1>
+                <h1 className="text-3xl text-black font-bold mb-2 md:text-4xl">
+                  Products
+                </h1>
                 <p className="text-md text-gray-600">
                   Discover the perfect blend of style and comfort with ShopLane.
                 </p>

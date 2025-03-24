@@ -150,7 +150,7 @@ const SignUp = () => {
               </label>
               <br />
               <div className="flex items-center">
-                <div className="w-4/12 text-md text-gray-700">
+                <div className="w-4/12 flex text-md text-gray-700">
                   <input
                     type="radio"
                     name="industry"
@@ -162,7 +162,7 @@ const SignUp = () => {
                   />
                   <label htmlFor="individual">Individual</label>
                 </div>
-                <div className="w-4/12 text-md text-gray-700">
+                <div className="w-4/12 flex text-md text-gray-700">
                   <input
                     type="radio"
                     name="industry"
@@ -174,7 +174,7 @@ const SignUp = () => {
                   />
                   <label htmlFor="enterprise">Enterprise</label>
                 </div>
-                <div className="w-4/12 text-md text-gray-700">
+                <div className="w-4/12 flex text-md text-gray-700">
                   <input
                     type="radio"
                     name="industry"
@@ -356,7 +356,7 @@ const SignUp = () => {
               </label>
               <br />
               <div className="flex gap-4">
-                <div className="w-2/12">
+                <div className="w-3/12">
                   <select
                     name="countryCode"
                     id="countryCode"
@@ -379,7 +379,7 @@ const SignUp = () => {
                     </p>
                   )}
                 </div>
-                <div className="w-10/12">
+                <div className="w-9/12">
                   <input
                     type="tel"
                     name="mobile"

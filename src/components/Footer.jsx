@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-100">
       <div className="container mx-auto">
         <div className="text-center py-6">
-          <h2 className="text-4xl font-bold text-gray-800 uppercase mb-2">
+          <h2 className="text-3xl font-bold text-gray-800 uppercase mb-2 md:text-4xl">
             Shop<span className="text-[#01b0f1]">Lane</span>
           </h2>
           <p className="text-sm">

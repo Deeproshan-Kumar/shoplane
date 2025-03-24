@@ -17,7 +17,7 @@ const Header = () => {
           >
             Shop<span className="text-[#01b0f1]">Lane</span>
           </Link>
-          <ul className="fixed w-full top-20 left-0 bg-[#01b0f1] p-2 flex justify-center items-center space-x-4 md:space-x-6 lg:space-x-10 sm:relative sm:top-0 sm:w-auto sm:bg-[transparent] sm:p-0">
+          <ul className="fixed w-full top-20 left-0 bg-white shadow-sm p-2 flex justify-center items-center space-x-4 md:shadow-none md:space-x-6 lg:space-x-10 sm:relative sm:top-0 sm:w-auto sm:bg-[transparent] sm:p-0">
             <li>
               <Link
                 to="/"

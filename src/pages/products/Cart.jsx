@@ -56,7 +56,7 @@ const Cart = () => {
           <div className="w-full md:w-9/12 flex items-center">
             <div className="w-full p-5 md:pt-28">
               <div className="mb-7">
-                <h1 className="text-center text-4xl text-black font-bold mb-2 md:text-left">
+                <h1 className="text-center text-4xl text-black font-bold mb-2 md:text-3xl md:text-left">
                   Cart
                 </h1>
                 <p className="text-md text-gray-600">
@@ -113,10 +113,10 @@ const Cart = () => {
                                     <img
                                       src={product?.image}
                                       alt={product?.title}
-                                      className="h-20 w-20 rounded-sm"
+                                      className="h-15 w-15 rounded-sm md:h-20 md:w-20"
                                     />
                                   </td>
-                                  <td className="p-1">
+                                  <td className="p-1 line-clamp-2">
                                     {product?.title.slice(0, 20) + "..."}
                                   </td>
                                   <td className="p-1 text-nowrap">
